@@ -1,0 +1,12 @@
+{
+  "name": "summer-shop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "pnpm --filter @workspace/summer-shop run dev",
+    "dev:backend": "pnpm --filter @workspace/api-server run dev:local"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.2"
+  }
+}
